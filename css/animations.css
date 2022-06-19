@@ -1,0 +1,89 @@
+@keyframes textStart {
+    0% {
+        opacity: 10%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes start {
+    0% {
+        color: #071e47;
+    }
+    100% {
+        color: #f05e7b;
+        font-size: 125%;
+    }
+}
+
+@keyframes imgStart {
+    0% {
+        opacity: 5%;
+        width: 10%;
+    }
+    100%{
+        opacity: 100%;
+        width: 90%;
+    }
+}
+
+@keyframes imgEnd {
+    0% {
+        opacity: 100%;
+        width: 90%;
+    }
+    100% {
+        opacity: 5%;
+        width: 10%;
+    }
+}
+
+@keyframes appear {
+    0% {
+        transform: translateY(15px) scale(0.1);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(-8px) scale(1);
+        opacity: 1;
+    }
+
+}
+
+@keyframes textAppear {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(-10px);
+        opacity: 1;
+    }
+}
+
+.text {
+    animation: 1500ms 300ms textAppear forwards;
+}
+
+@keyframes text {
+    0% {
+        margin-right: 45%;
+    }
+    100% {
+        margin: 0 15% 0 8%;
+    }
+
+}
+
+@keyframes imgAnimation {
+    0% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateY(-40px);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}

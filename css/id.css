@@ -1,0 +1,104 @@
+
+
+#header {
+    display: inline-flex;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.95));
+    z-index: 5;
+}
+
+#home {
+
+}
+
+#middle-page {
+    margin-top: 6em;
+}
+
+#left-header {
+    padding-right: 30%;
+    padding-left: 10%;
+    padding-top: 0.5%;
+}
+
+#right-header {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#home,
+#resume {
+    padding: 5px 23px;
+}
+
+#fp-up {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-bottom: 6em;
+}
+
+#fp-up-l {
+    margin-right: 45%;
+    padding: 10% 0 0 10%;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255,255,255,0.10);
+    box-shadow: 2em 0px 20px rgba(255,255,255,0.10);
+}
+
+#text1, #text2 {
+    line-height: 1.35em;
+}
+
+#name {
+    font-size: 120%;
+}
+
+#title1 {
+    font-size: 300%;
+}
+
+#fp-up-r {
+    position: absolute;
+    top: 7rem;
+    right: 0;
+    width: 39rem;
+    z-index: -1;
+    animation: imgAnimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#btn {
+    width: 20%;
+    display: inline-flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+    padding: 1% 0;
+}
+
+#skills {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+#maitrise {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: -10px;
+}
+
+#pointFaible {
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+#bonjour {
+    animation: 1500ms 100ms 1 start;
+    animation-fill-mode: forwards;
+}

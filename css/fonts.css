@@ -1,0 +1,24 @@
+::selection {
+    color: #1f1f1f;
+    background-color: #f3f3f3;
+}
+
+.title {
+    color: var(--deep-blue);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.title2 {
+    color: var(--pink);
+    text-transform: uppercase;
+}
+
+.text {
+    color: var(--light-grey);
+    font-weight: bold;
+}
+
+.text2 {
+    color: var(--light-pink);
+}
